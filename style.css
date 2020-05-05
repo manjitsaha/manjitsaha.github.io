@@ -13,9 +13,3 @@ body , html{
   position: relative;
 }
 
-.button{
-	position: absolute;
-	top: 250px;
-	left: 500px;
-	border-radius: 300px;
-}
