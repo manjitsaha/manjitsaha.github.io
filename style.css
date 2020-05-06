@@ -8,6 +8,9 @@ body{
 	font-family: 'Poppins', sans-serif;
 }
 
+button{
+	font-family: 'Poppins', sans-serif;
+}
 
 header{
 	display: flex;
@@ -31,11 +34,13 @@ header{
 }
 
 nav{
-	flex: 0.5;
+
+	flex: 1;
 	
 }
 
 .nav-links{
+
 	list-style: none;
 	justify-content: space-around;
 }
@@ -57,10 +62,103 @@ nav{
 	align-items: center;
 }
 
-.cover img{
-	display: flex;
-	height: 60vh;
+.intro{
+	flex:1;
 	
+}
+.intro-text{
+	font-size: 25px;
+}
+.cover{
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	height: 60vh;
+
+}
+
+.cover img{
+	height: 100%;
+	animation: drop 1.5s ease-in-out;
+	justify-content: flex-end;
+}
+
+.cta{
+	padding-top: 50px;
+}
+.cta-select{
+	border:2px solid #c36cbb;
+	background:transparent;
+	color:#c36cbb;
+	width: 150px;
+	height:50px;
+	margin-top: 10px;
+	cursor: pointer; 
+	font-size: 16px;
+	transition: all 0.3s;
+	
+}
+.cta-add{
+	border:2px solid #c36cbb;
+	background:#c36cbb;
+	color:white;
+	width: 150px;
+	height:50px;
+	margin-top: 10px;
+	margin-left: 30px;
+	cursor: pointer; 
+	font-size: 16px;
+	transition: all 0.3s;
+}
+.cta-select:hover,.cta-add:hover{
+	transform: scale(1.1);
+	background-color: #c36cbb;
+	color:white;
+
+}
+
+@keyframes drop{
+	0%{
+		opacity: 0;
+		transform: translateY(-80px);
+	}
+
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
 }
 
 
+
+@media only screen and (max-width: 1080px) {
+
+	.logo{
+		flex:0.5;
+	}
+
+	.nav-links{
+		flex: 1.5;
+	}
+
+	.presentation{
+		flex-direction: column;
+	}
+
+	.intro{
+		margin-top: 5vh;
+		text-align: center;
+	}
+
+	.intro-text p{
+		font-size: 18px;
+	}
+	.intro-text h1{
+		font-size: 30px;
+	}
+
+	.cover img{
+		height: 80%;
+	}
+   
+}
