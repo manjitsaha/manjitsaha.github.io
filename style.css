@@ -160,10 +160,11 @@ nav{
 	}
 
 	.cover img{
+		margin-top: 20px;
 		height: 80%;
 	}
 
 .logo-container,.nav-links{
-	font-size: 40px;
+	font-size: 25px;
    
 }
