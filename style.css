@@ -163,6 +163,10 @@ nav{
 	}
 
     .logo-container,.nav-links{
-	font-size: 15px;
+	font-size: 25px;
    
+    }
+
+    header{
+    	height: 5vh;
     }
