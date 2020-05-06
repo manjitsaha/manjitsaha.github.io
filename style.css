@@ -86,7 +86,6 @@ nav{
 
 .cta{
 	padding-top: 50px;
-	
 }
 .cta-select{
 	border:2px solid #c36cbb;
@@ -163,7 +162,7 @@ nav{
 		height: 80%;
 	}
 
-.logo-container,.nav-links{
+    .logo-container,.nav-links{
 	font-size: 25px;
    
-}
+    }
