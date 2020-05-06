@@ -23,7 +23,6 @@ header{
 }
 
 .logo-container,.nav-links{
-	font-size: 20px;
 	display: flex;
 
 
@@ -67,9 +66,6 @@ nav{
 	flex:1;
 	
 }
-.intro-text{
-	font-size: 22px;
-}
 .cover{
 	display: flex;
 	flex: 1;
@@ -95,7 +91,7 @@ nav{
 	height:50px;
 	margin-top: 10px;
 	cursor: pointer; 
-	font-size: 20px;
+	font-size: 16px;
 	transition: all 0.3s;
 	
 }
@@ -106,9 +102,9 @@ nav{
 	width: 150px;
 	height:50px;
 	margin-top: 10px;
-	margin-left: 15px;
+	margin-left: 30px;
 	cursor: pointer; 
-	font-size: 20px;
+	font-size: 16px;
 	transition: all 0.3s;
 }
 .cta-select:hover,.cta-add:hover{
@@ -161,12 +157,5 @@ nav{
 	.cover img{
 		height: 80%;
 	}
-
-    .logo-container,.nav-links{
-	font-size: 25px;
    
-    }
-
-    header{
-    	height: 5vh;
-    }
+}
